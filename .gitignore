@@ -1,0 +1,4 @@
+book/
+target/
+**/*.rs.bk
+Cargo.lock
