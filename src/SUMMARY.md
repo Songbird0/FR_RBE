@@ -108,3 +108,8 @@
     - [Le trait Drop](chapitre14/traitdrop.md)
     - [Les itérateurs](chapitre14/iterators.md)
     - [Le trait Clone](chapitre14/traitclone.md)
+- [macro_rules!](chapitre14/systememacro.md)
+    - [Les indicateurs](chapitre14/indicateurs.md)
+    - [Surcharge](chapitre14/surchargemacro.md)
+    - [Répétition](chapitre14/repetitionregexp.md)
+    - [DRY](chapitre14/dontrepeatyourself.md)
