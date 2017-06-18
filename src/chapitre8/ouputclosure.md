@@ -1,0 +1,1 @@
+# Renvoyer une closure

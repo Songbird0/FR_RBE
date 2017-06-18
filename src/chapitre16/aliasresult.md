@@ -1,0 +1,1 @@
+# Les alias de `Result`

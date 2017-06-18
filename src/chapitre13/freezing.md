@@ -1,0 +1,1 @@
+# Verrouillage des ressources

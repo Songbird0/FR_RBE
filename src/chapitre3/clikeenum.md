@@ -1,0 +1,1 @@
+# Énumérations "C-like"

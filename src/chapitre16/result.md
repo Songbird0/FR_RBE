@@ -1,0 +1,1 @@
+# L'enum `Result`

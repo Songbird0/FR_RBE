@@ -1,0 +1,1 @@
+# Fonctions passées en paramètres
