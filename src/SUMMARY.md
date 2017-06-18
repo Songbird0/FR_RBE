@@ -12,7 +12,7 @@
 - [Les primitifs](chapitre2/primitifs.md)
     - [Les littéraux et les opérateurs](chapitre2/litop.md)
     - [Les tuples](chapitre2/tuples.md)
-    - [Les tableaux et les "slices"](tabslices.md)
+    - [Les tableaux et les "slices"](chapitre2/tabslices.md)
 - [Les types personnalisés](chapitre3/typeperso.md)
     - [Les structures](chapitre3/struct.md)
     - [Les énumérations](chapitre3/enum.md)
