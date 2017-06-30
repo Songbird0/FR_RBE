@@ -21,12 +21,12 @@ Toutes formatent le texte de la même manière.
 
 Dans cet exemple, `fmt::Display` était utilisé parce que la bibliothèque standard fournit les implémentations pour ces types. Pour afficher du texte à partir de types complexes/personnalisés, d'autres étapes sont requises.
 
-### Activité
+## Activité
 
 Réglez les deux problèmes dans le code ci-dessus (cf. FIXME) pour qu'il s'exécute sans erreurs.
 
 Ajoutez une macro `println!` qui affiche : « Pi est, à peu près, égal à 3,142 » en contrôlant le nombre affiché de chiffres après la virgule. Dans le cadre de l'exercice, vous utiliserez `let pi = 3.141592` comme estimation de Pi (**Note **:Vous pourriez avoir besoin de consulter la documentation du module [std::fmt](https://doc.rust-lang.org/std/fmt/index.html "Documentation du module") pour configurer le nombre de décimaux à afficher).
 
-### Voir aussi
+## Voir aussi
 
 [std::fmt](https://doc.rust-lang.org/std/fmt/index.html), [lien interne vers les macros], [les structures](../chapitre3/struct.html), [lien interne vers les traits]

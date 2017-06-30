@@ -12,6 +12,6 @@ Exception pour les `"chaînes de caractères"` littérales qui peuvent être dir
 
 {{#playpen source/constantessource0.rs}}
 
-### Voir aussi
+## Voir aussi
 
 La RFC des mot-clés [const et static](https://github.com/rust-lang/rfcs/blob/master/text/0246-const-vs-static.md), [la lifetime `'static`](../chapitre13/static.html).

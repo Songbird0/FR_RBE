@@ -20,7 +20,7 @@ $ ./hello
 Hello World!
 ```
 
-### Activité
+## Activité
 
 Cliquez sur le bouton « Run » en début de section pour visualiser le résultat présenté. Ensuite, ajoutez une nouvelle ligne qui permettra de visualiser le résultat ci-dessous :
 

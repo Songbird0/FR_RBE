@@ -15,7 +15,7 @@ Cette fonctionnalité est implémentée à l'aide de traits, et il y en a un pou
 
 N'hésitez pas à consulter [la liste complète des traits](http://doc.rust-lang.org/std/fmt/#formatting-traits) dédiés au formatage ainsi que leurs types d'argument dans la documentation du module [std::fmt](http://doc.rust-lang.org/std/fmt/).
 
-### Activité
+## Activité
 
 Implémentez le trait `fmt::Display` pour la structure `Color` dans l'exemple ci-dessus de manière à obtenir un résultat identique à celui-ci:
 
@@ -31,6 +31,6 @@ Indices:
 * Vous pourriez [avoir besoin d'itérer plusieurs fois](http://doc.rust-lang.org/std/fmt/#argument-types) sur vos couleurs;
 * Vous pouvez [créer une « compensation »](http://doc.rust-lang.org/std/fmt/#width) (remplissant votre chaîne de zéros) d'une largeur `n` avec `:0n`.
 
-### Voir aussi
+## Voir aussi
 
 [std::fmt](http://doc.rust-lang.org/std/fmt/)

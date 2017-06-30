@@ -16,6 +16,6 @@ Le type des variables peut toujours être spécifié. Les nombres peuvent être 
 
 {{#playpen source/primitifssource0.rs}}
 
-### Voir aussi
+## Voir aussi
 
 [La bibliothèque standard](https://doc.rust-lang.org/std/).
