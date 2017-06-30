@@ -4,6 +4,6 @@ Grâce au mot-clé `use`, il n'est pas toujours obligatoire de spécifier le «�
 
 {{#playpen source/motusesource0.rs}}
 
-### Voir aussi
+## Voir aussi
 
 [Le mot-clé match](../chapitre7/match.html) et [la déclaration use](../chapitre9/usedeclaration.html).

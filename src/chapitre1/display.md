@@ -23,7 +23,7 @@ Donc `fmt::Display` a été implémenté mais ce n'est pas le cas de `fmt::Binar
 
 `std::fmt` possède de nombreux [traits](lien interne vers les traits) et chacun doit posséder sa propre implémentation. Pour plus d'informations, nous vous invitons à consulter [la documentation du module](http://doc.rust-lang.org/std/fmt/).
 
-### Activité
+## Activité
 
 Après avoir constaté le résultat de l'exemple ci-dessus, aidez-vous de la structure `Point2D` pour ajouter à l'exemple une nouvelle structure nommée `Complex`. Voici le résultat attendu lorsqu'une instance de la structure `Complex` sera affichée :
 
@@ -32,6 +32,6 @@ Display: 3.3 + 7.2i
 Debug: Complex { real: 3.3, imag: 7.2 }
 ```
 
-### Voir aussi
+## Voir aussi
 
 [L'attribut derive](../chapitre14/derive.html), [std::fmt](http://doc.rust-lang.org/std/fmt/), [les macros](../chapitre15/systememacro.html), [les structures](../chapitre3/struct.html), [les traits](../chapitre14/traits.html), [le mot-clé use](../chapitre9/usedeclaration.html).

@@ -4,7 +4,7 @@ Un tuple est une collection de valeurs de différents types(ou pas). Les tuples 
 
 {{#playpen source/tuplessource0.rs}}
 
-### Activité
+## Activité
 
 1. Récapitulatif : Implémentez les services du trait `fmt::Display` pour la structure `Matrix` dans l'exemple ci-dessus. Donc si vous passez de l'affichage de débogage `{:?}` à l'affichage plus « user friendly » `{}`, vous devriez voir le résultat suivant :
 

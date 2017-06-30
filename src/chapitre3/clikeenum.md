@@ -4,6 +4,6 @@ Les énumérations du langage Rust peuvent également adopter la même syntaxe q
 
 {{#playpen source/clikeenumsource0.rs}}
 
-### Voir aussi
+## Voir aussi
 
 [La coercition](../chapitre5/casting.html).

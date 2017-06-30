@@ -4,6 +4,6 @@ Voici un exemple dans lequel une énumération peut être utilisée pour créer 
 
 {{#playpen source/testcaselinkedlistsource0.rs}}
 
-### Voir aussi
+## Voir aussi
 
 [Box](../chapitre17/boxpiletas.html), [les méthodes](../chapitre8/methodes.html).

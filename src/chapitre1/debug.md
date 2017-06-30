@@ -14,6 +14,6 @@ Pour le trait `fmt::Debug`, rien de plus simple. Tous les types peuvent hériter
 
 Finalement, `fmt::Debug` permet de rendre un type personnalisé affichable en sacrifiant quelque peu « l'élégance » du résultat. Pour soigner cela, il faudra implémenter soit-même les services du traits `fmt::Display`.
 
-#### Voir aussi
+## Voir aussi
 
 [Les attributs](https://doc.rust-lang.org/reference.html#attributes), [lien interne vers l'attribut derive], [std::fmt](http://doc.rust-lang.org/std/fmt/), [les structures](../chapitre1/struct.html).

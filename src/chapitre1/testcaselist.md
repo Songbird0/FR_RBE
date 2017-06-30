@@ -24,7 +24,7 @@ Avec l'opérateur `?`, l'implémentation du trait `fmt::Display` pour un `Vec` 
 
 {{#playpen source/testcaselistsource0.rs}}
 
-### Activité
+## Activité
 
 Essayez de modifier le programme pour que l'index de chaque élément du vector soit également affiché durant l'exécution. Le résultat devrait ressembler à ceci :
 
@@ -32,6 +32,6 @@ Essayez de modifier le programme pour que l'index de chaque élément du vector 
 [0: 1, 1: 2, 2: 3]
 ```
 
-### Voir aussi
+## Voir aussi
 
 [La boucle for](../chapitre7/forintervalles.html), [le pattern `ref`](../chapitre13/refpattern.html), [`Result`](../chapitre17/enumresult.html), [les structures](../chapitre3/struct.html), [`try!`](../chapitre17/trymacro.html), [`vec!`](../chapitre17/vecteurs.html)
