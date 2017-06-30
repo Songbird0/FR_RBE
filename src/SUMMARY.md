@@ -24,7 +24,7 @@
     - [Mutabilité](chapitre4/mutabilite.md)
     - [Scope et shadowing](chapitre4/scopeshadowing.md)
     - [Déclaration seule](chapitre4/declarationseule.md)
-- [La coercition/Casting](chapitre5/casting.md)
+- [Le Casting](chapitre5/casting.md)
     - [Les littéraux](chapitre5/litteraux.md)
     - [L'inférence des types](chapitre5/typeinference.md)
     - [Les alias](chapitre5/alias.md)
