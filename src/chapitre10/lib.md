@@ -1,6 +1,6 @@
 # Créer une bibliothèque
 
-Commençons par créer une bibliothèque, dont nous nous servirons ensuite pour la rattacher à une autre `crate`(« caisse »).
+Commençons par créer une bibliothèque dont nous nous servirons ensuite pour l'importer dans une autre `crate`(« caisse »).
 
 ```rust,ignore
 // rary.rs

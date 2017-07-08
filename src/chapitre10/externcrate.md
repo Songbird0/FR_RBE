@@ -1,6 +1,6 @@
 # La déclaration `extern crate`
 
-Pour attacher une `crate` à cette nouvelle bibliothèque, il vous faudra utiliser la déclaration `extern crate`. Cette déclaration a aussi pour effet d'importer toutes les ressources sous un même module, possédant le même nom que la bibliothèque. Les règles régissant la visibilité des ressources s'appliquent également aux modules des bibliothèques importées.
+Pour importer une `crate` à cette nouvelle bibliothèque, il vous faudra utiliser la déclaration `extern crate`. Cette déclaration a aussi pour effet d'importer toutes les ressources sous un même module, possédant le même nom que la bibliothèque. Les règles régissant la visibilité des ressources s'appliquent également aux modules des bibliothèques importées.
 
 ```rust,ignore
 // executable.rs
