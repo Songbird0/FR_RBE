@@ -4,7 +4,7 @@ Pour importer une `crate` à cette nouvelle bibliothèque, il vous faudra utilis
 
 ```rust,ignore
 // executable.rs
-// On attache la bibliothèque `library` et on importe ses ressources 
+// On importe la bibliothèque `library` et ses ressources 
 // sous un module nommé `rary`.
 extern crate rary;
 
