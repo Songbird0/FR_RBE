@@ -112,7 +112,7 @@
     - [Les indicateurs](chapitre15/indicateurs.md)
     - [Surcharge](chapitre15/surchargemacro.md)
     - [Répétition](chapitre15/repetitionregexp.md)
-    - [DRY](chapitre15/dontrepeatyourself.md)
+    - [DRY (Don't Repeat Yourself)](chapitre15/dontrepeatyourself.md)
 - [La gestion des erreurs](chapitre16/gestionerreurs.md)
     - [La macro panic](chapitre16/panic.md)
     - [L'enum Option et la méthode unwrap](chapitre16/option.md)
