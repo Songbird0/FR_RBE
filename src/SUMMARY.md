@@ -130,7 +130,7 @@
 - [Les types de la bibliothèque standard](chapitre17/stdtypes.md)
     - [Les `Box`, la pile et le tas](chapitre17/boxpiletas.md)
     - [Les vecteurs](chapitre17/vecteurs.md)
-    - [Les chaînes de caractères (`String`)](chapitre17/stringwrapper.md)
+    - [Les chaînes de caractères](chapitre17/stringwrapper.md)
     - [L'énumération `Option`](chapitre17/enumoption.md)
     - [L'énumération `Result`](chapitre17/enumresult.md)
         - [La macro `try!`](chapitre17/trymacro.md)
