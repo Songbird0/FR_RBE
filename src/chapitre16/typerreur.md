@@ -1,1 +1,0 @@
-# Multiples types d'erreur
