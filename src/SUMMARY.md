@@ -92,7 +92,7 @@
         - [Mutabilité](chapitre13/borrowingmut.md)
         - [Verrouillage des ressources](chapitre13/freezing.md)
         - [Limitations des accès lecture/écriture](chapitre13/aliasing.md)
-        - [Le pattern ref](chapitre13/refpattern.md)
+        - [Le pattern `ref`](chapitre13/refpattern.md)
     - [Système de durée de vie](chapitre13/lifetimes.md)
         - [Les labels](chapitre13/labels.md)
         - [Les fonctions](chapitre13/fonctions.md)
