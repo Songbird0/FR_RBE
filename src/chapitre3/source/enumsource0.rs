@@ -7,7 +7,7 @@
 // Aucune n'est égale à l'autre: `Engineer != Scientist` et 
 // `Height(i32) != Weight(i32)`. 
 enum Person {
-    // Une variante peut être une structure vide ("unit-like"),
+    // Une variante peut être une structure unitaire,
     Engineer,
     Scientist,
     // un tuple
@@ -41,7 +41,7 @@ fn main() {
     let person   = Person::Height(18);
     let amira    = Person::Weight(10);
     // La fonction `to_owned()` créé une instance de la structure `String` 
-    // possédée par l'assignation `name` à partir d'une slice (i.e. &str)
+    // possédée par l'assignation `name` à partir d'une slice (i.e. &str).
     let dave     = Person::Info { name: "Dave".to_owned(), height: 72 };
     let rebecca  = Person::Scientist;
     let rohan    = Person::Engineer;

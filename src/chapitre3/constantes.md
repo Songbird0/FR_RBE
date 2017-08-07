@@ -1,6 +1,6 @@
 # Les constantes
 
-Rust possède deux types de constantes qui peuvent être déclarées dans n'importe quel « scope » global.
+Rust possède deux types de constantes qui peuvent être déclarées dans n'importe quel contexte global.
 
 Chacun dispose d'un mot-clé :
 
@@ -14,4 +14,7 @@ Exception pour les `"chaînes de caractères"` littérales qui peuvent être dir
 
 ## Voir aussi
 
-La RFC des mot-clés [const et static](https://github.com/rust-lang/rfcs/blob/master/text/0246-const-vs-static.md), [la lifetime `'static`](../chapitre13/static.html).
+La RFC des mot-clés [const et static][const], [la lifetime `'static`][lifetime].
+
+[const]: https://github.com/rust-lang/rfcs/blob/master/text/0246-const-vs-static.md
+[lifetime]: ../chapitre13/static.html
