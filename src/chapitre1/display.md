@@ -1,10 +1,29 @@
 # Display
 
-`fmt::Debug` propose un formatage rudimentaire, et il peut être de bon ton de soigner ce que nous affichons. Pour se faire, il faudra implémenter `fmt::Display` (qui utilise le marqueur `{}`).
+`fmt::Debug` propose un formatage rudimentaire, et il peut être de bon ton de soigner ce que nous affichons. Pour ce faire, il faudra implémenter `fmt::Display` (qui utilise le marqueur `{}`).
 
 Voici un exemple d'implémentation du trait :
 
-{{#playpen source/displaysource0.rs}}
+```rust,ignore
+// On importe (via `use`) le module `fmt` pour le rendre accessible.
+use std::fmt;
+
+// Nous définissons une structure dans laquelle le trait `fmt::Display` 
+// sera implémenté. Ce n'est qu'un simple tuple, nommée `Structure`, contenant un entier de type i32. 
+struct Structure(i32);
+
+// Pour pouvoir utiliser le marqueur `{}`, le trait `fmt::Display` doit être implémenté 
+// manuellement pour le type.
+impl fmt::Display for Structure {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        // écrit le premier élément de la structure dans le flux en sortie
+        // soumis: `f`. Renvoie une instance de `fmt::Result` qui témoigne du succès 
+        // ou de l'échec de l'opération. Notez que `write!` possède une syntaxe très 
+        // similaire à `println!`.
+        write!(f, "{}", self.0)
+    }
+}
+```
 
 `fmt::Display` pourrait être plus lisible que `fmt::Debug` mais il présente un problème pour la bibliothèque standard. Comment les types ambiguës devraient être affichés ? Par exemple, si la bibliothèque standard devait implémenter un seul formatage pour toutes les « variantes » de `Vec<T>`, quel style devrait être choisi ? N'importe lequel ?
 
@@ -19,9 +38,9 @@ Ce n'est en revanche pas un problème pour les conteneurs(e.g. structures) qui n
 
 {{#playpen source/displaysource1.rs}}
 
-Donc `fmt::Display` a été implémenté mais ce n'est pas le cas de `fmt::Binary`, il ne peut donc être utilisé.
+Donc `fmt::Display` a été implémenté mais ce n'est pas le cas de `fmt::Binary`, il ne peut alors pas être utilisé.
 
-`std::fmt` possède de nombreux [traits](lien interne vers les traits) et chacun doit posséder sa propre implémentation. Pour plus d'informations, nous vous invitons à consulter [la documentation du module](http://doc.rust-lang.org/std/fmt/).
+`std::fmt` possède de nombreux [traits][traits] et chacun doit posséder sa propre implémentation. Pour plus d'informations, nous vous invitons à consulter [la documentation du module][fmt].
 
 ## Activité
 
@@ -34,4 +53,11 @@ Debug: Complex { real: 3.3, imag: 7.2 }
 
 ## Voir aussi
 
-[L'attribut derive](../chapitre14/derive.html), [std::fmt](http://doc.rust-lang.org/std/fmt/), [les macros](../chapitre15/systememacro.html), [les structures](../chapitre3/struct.html), [les traits](../chapitre14/traits.html), [le mot-clé use](../chapitre9/usedeclaration.html).
+[L'attribut derive][derive], [std::fmt][fmt], [les macros][macros], [les structures][struct], [les traits][traits], [le mot-clé use][use].
+
+[derive]: ../chapitre14/derive.html
+[fmt]: http://doc.rust-lang.org/std/fmt/
+[macros]: ../chapitre15/systememacro.html
+[struct]: ../chapitre3/struct.html
+[traits]: ../chapitre14/traits.html
+[use]: ../chapitre9/usedeclaration.html

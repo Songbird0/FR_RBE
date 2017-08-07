@@ -12,8 +12,8 @@ impl fmt::Display for List {
 
         write!(f, "[")?;
 
-        // On parcours 'vec' en stockant chacun de ses éléments et 
-        // le nombre d'iterations.
+        // On parcourt 'vec' en stockant chacun de ses éléments et 
+        // le nombre d'itérations.
         for (count, v) in vec.iter().enumerate() {
             // Pour tout élément, excepté le premier, on ajoute une virgule.
             // On utilise l'opérateur ?, ou la macro try!, pour renvoyer les erreurs.
@@ -22,7 +22,7 @@ impl fmt::Display for List {
         }
 
         // On ferme le crochet ouvert précédemment et on renvoie une instance 
-        // de la structure fmt::Result.
+        // de la structure `fmt::Result`.
         write!(f, "]")
     }
 }
