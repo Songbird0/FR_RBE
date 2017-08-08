@@ -11,6 +11,5 @@ fn main() {
 
     // Erreur!
     //_immutable_binding += 1;
-    // FIXME ^ Commentez cette ligne pour voir le message d'erreur 
-    // disparaître.
+    // FIXME ^ Décommentez cette ligne pour voir le message d'erreur
 }
