@@ -10,7 +10,7 @@ fn main() {
         2 | 3 | 5 | 7 | 11 => println!("C'est un nombre premier."),
         // Teste l'intervalle [13;19].
         13...19 => println!("A teen"),
-        // Couvre tous les autres cases.
+        // Couvre tous les autres cas.
         _ => println!("Ain't special"),
     }
 

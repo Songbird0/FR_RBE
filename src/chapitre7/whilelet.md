@@ -10,4 +10,8 @@ En utilisant `while let`, cela rend la séquence plus lisible :
 
 ## Voir aussi
 
-[Les énumérations](../chapitre3/enum.html), [l'énumération `Option`](../chapitre17/enumoption.html) et [la RFC de while let](https://github.com/rust-lang/rfcs/pull/214).
+[Les énumérations][enums], [l'énumération `Option`][option] et [la RFC de while let][rfc].
+
+[enums]: ../chapitre3/enum.html
+[option]: ../chapitre17/enumoption.html
+[rfc]: https://github.com/rust-lang/rfcs/pull/214

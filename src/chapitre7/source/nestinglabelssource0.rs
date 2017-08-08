@@ -10,7 +10,7 @@ fn main() {
 
             // Cette instruction nous ferait simplement 
             // sortir de la boucle 'interne.
-            //break;
+            // break;
             
             // On sort de la boucle 'externe 
             // à partir de la boucle 'interne.

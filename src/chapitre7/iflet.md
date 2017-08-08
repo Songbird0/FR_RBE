@@ -10,4 +10,8 @@ Pour certains cas, `match` peut être « lourd ». Par exemple :
 
 ## Voir aussi 
 
-[Les énumérations](../chapitre3/enum.html), [l'énumération `Option`](../chapitre17/enumoption.html) et [la RFC de if let](https://github.com/rust-lang/rfcs/pull/160).
+[Les énumérations][enums], [l'énumération `Option`][option] et [la RFC de if let][rfc].
+
+[enums]: ../chapitre3/enum.html
+[option]: ../chapitre17/enumoption.html
+[rfc]: https://github.com/rust-lang/rfcs/pull/160

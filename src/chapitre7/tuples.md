@@ -6,4 +6,6 @@ Les tuples peuvent être déstructurés (entendez « décortiqués », « dé
 
 ## Voir aussi
 
-[Les tuples](../chapitre2/tuples.html).
+[Les tuples][tuples].
+
+[tuples]: ../chapitre2/tuples.html

@@ -14,7 +14,7 @@
         // `&val` <- `val` est plus ou moins une représentation de `reference`.
         // ^ Nous remarquons que si le `&` est omis, la valeur devrait être 
         // assignée à `val`.
-        &val => println!("Got a value via destructuring: {:?}", val),
+        &val => println!("On récupère une valeur via déstructuration: {:?}", val),
     }
 
     // Pour éviter d'utiliser la référence, vous pouvez déréférencer `reference` 
@@ -24,8 +24,8 @@
     }
 
     // Que se passe-t-il si vous ne créez pas une référence ? `reference` 
-    // était une référence parce que la "r-value" était une référence. Cette 
-    // variable n'en est pas une parce que la valeur de droite n'en est pas une.
+    // était une référence parce que la r-value était une référence. Cette 
+    // variable n'en est pas une parce que la r-value n'en est pas une.
     let _not_a_reference = 3;
 
     // Rust fournit le mot-clé `ref` dans ce but. Il modifie l'assignation 
