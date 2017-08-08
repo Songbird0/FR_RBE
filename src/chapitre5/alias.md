@@ -6,4 +6,6 @@ Le mot-clé `type` peut être utilisé pour donner un nouveau nom à un type exi
 
 ## Voir aussi
 
-[Les attributs](../chapitre11/attributes.html).
+[Les attributs][attributes].
+
+[attributes]: ../chapitre11/attributes.html
