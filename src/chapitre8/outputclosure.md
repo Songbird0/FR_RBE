@@ -15,4 +15,9 @@ En dehors de cela, le mot-clé `move` doit être utilisé, indiquant que toutes 
 
 ## Voir aussi
 
-[Box](../chapitre17/boxpiletas.html), [Fn](http://doc.rust-lang.org/std/ops/trait.Fn.html), [FnMut](http://doc.rust-lang.org/std/ops/trait.FnMut.html) et [la généricité](../chapitre12/genericite.html).
+[Box][Box], [Fn][Fn], [FnMut][FnMut] et [la généricité][genericite].
+
+[Box]: ../chapitre17/boxpiletas.html
+[Fn]: http://doc.rust-lang.org/std/ops/trait.Fn.html
+[FnMut]: http://doc.rust-lang.org/std/ops/trait.FnMut.html
+[genericite]: ../chapitre12/genericite.html

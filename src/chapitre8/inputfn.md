@@ -6,4 +6,8 @@ Les closures peuvent être soumises en entrée aux fonctions, mais vous pourriez
 
 ## Voir aussi
 
-[Fn](http://doc.rust-lang.org/std/ops/trait.Fn.html), [FnMut](http://doc.rust-lang.org/std/ops/trait.FnMut.html) et [FnOnce](http://doc.rust-lang.org/std/ops/trait.FnOnce.html).
+[Fn][Fn], [FnMut][FnMut] et [FnOnce][FnOnce].
+
+[Fn]: http://doc.rust-lang.org/std/ops/trait.Fn.html
+[FnMut]: http://doc.rust-lang.org/std/ops/trait.FnMut.html
+[FnOnce]: http://doc.rust-lang.org/std/ops/trait.FnOnce.html
