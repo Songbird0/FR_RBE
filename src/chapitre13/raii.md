@@ -1,12 +1,12 @@
 # Le RAII
 
-En Rust, les variables ne stockent pas seulement leurs données dans la pile : Elles possèdent leurs ressources (e.g. le conteneur `Box<T>` possède, alloue de la mémoire dans le tas). Rust imposant l'approche du RAII, lorsqu'un objet sort du contexte, son destructeur est appelé et les ressources, possédées par l'objet, sont libérées.
+En Rust, les variables ne stockent pas seulement leurs données dans la pile : Elles sont responsables de leurs ressources (e.g. le conteneur `Box<T>` possède, alloue de la mémoire dans le tas). Rust imposant l'approche du RAII, lorsqu'un objet sort du contexte, son destructeur est appelé et les ressources, possédées par l'objet, sont libérées.
 
 Ce fonctionnement prévient les problèmes de fuites mémoire et nous dispense donc de gérer manuellement la mémoire. Voici un exemple :
 
 {{#playpen source/raiisource0.rs}}
 
-Bien entendu, vous pouvez vérifier par vous-même si des fuites sont présentes en utilisant [valgrind](http://valgrind.org/info/) :
+Bien entendu, vous pouvez vérifier par vous-même si des fuites sont présentes en utilisant [valgrind][valgrind] :
 
 ```bash
 $ rustc raii.rs && valgrind ./raii
@@ -28,4 +28,7 @@ $ rustc raii.rs && valgrind ./raii
 
 ## Voir aussi
 
-[Box](../chapitre17/boxpiletas.html).
+[Box][box].
+
+[valgrind]: http://valgrind.org/info/
+[box]: ../chapitre17/boxpiletas.html

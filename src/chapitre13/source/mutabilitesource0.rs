@@ -4,7 +4,7 @@ fn main() {
     println!("immutable_box contains {}", immutable_box);
 
     // Erreur: `immutable_box` ne peut pas être déréférencé.
-    //*immutable_box = 4;
+    // *immutable_box = 4;
 
     // On créé une copie mutable de `immutable_box`.
     let mut mutable_box = immutable_box;

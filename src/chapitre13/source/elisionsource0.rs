@@ -1,4 +1,4 @@
-//`elided_input` et `annotated_input` ont fondamentalement la même signature, 
+// `elided_input` et `annotated_input` ont fondamentalement la même signature, 
 // sauf que la lifetime de l'entrée de la fonction `elided_input` a été omise 
 // et ajoutée par le compilateur.
 fn elided_input(x: &i32) {

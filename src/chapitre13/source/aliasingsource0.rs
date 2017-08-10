@@ -32,7 +32,7 @@ fn main() {
 
         // Erreur! Vous ne pouvez pas accéder à `point` en lecture 
         // alors que la ressource est potentiellement en train d'être modifiée.
-        //let y = &point.y;
+        // let y = &point.y;
         // TODO ^ Essayez de décommenter cette ligne.
 
         // Erreur! On ne peut pas afficher `point.z` en utilisant 
@@ -51,7 +51,7 @@ fn main() {
     }
 
     // Les accès en lecture sur `point` sont de nouveau 
-    // permis par le borrow checker.
+    // permis par le vérificateur d'emprunts.
     let borrowed_point = &point;
     println!("Point now has coordinates: ({}, {}, {})",
              borrowed_point.x, borrowed_point.y, borrowed_point.z);

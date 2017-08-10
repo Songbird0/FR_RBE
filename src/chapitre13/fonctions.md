@@ -1,6 +1,6 @@
 # Les fonctions
 
-Lorsque le concept [d'élision](../chapitre13/elision.html) ne peut pas être appliqué, les signatures de fonctions comportant des (labels de) lifetimes sont régies par quelques règles :
+Lorsque le concept [d'élision][elision] ne peut pas être appliqué, les signatures de fonctions comportant des (labels de) lifetimes sont régies par quelques règles :
 
 1. Toute référence doit être annotée d'une lifetime;
 2. Toute référence renvoyée doit posséder la même lifetime qu'en entrée ou la lifetime `‘static`.
@@ -11,4 +11,7 @@ Notez également que, si une fonction n'a pas de références en entrée, le ren
 
 ## Voir aussi
 
-[Les fonctions](../chapitre8/fonctions.html).
+[Les fonctions][fonctions].
+
+[elision]: ../chapitre13/elision.html
+[fonctions]: ../chapitre8/fonctions.html

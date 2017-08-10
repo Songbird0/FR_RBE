@@ -1,4 +1,4 @@
-// raii.rs
+// Dans le fichier raii.rs
 fn create_box() {
     // Allocation d'un entier dans le tas.
     let _box1 = Box::new(3i32);
