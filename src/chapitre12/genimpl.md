@@ -6,4 +6,8 @@ Tout comme les fonctions, les implémentations nécessitent quelques précisions
 
 ## Voir aussi
 
-[Renvoi de références](../chapitre13/fonctions.html), [impl](../chapitre8/methodes.html), [les structures](../chapitre3/struct.html).
+[Renvoi de références][ref_return], [impl][impl], [les structures][struct].
+
+[ref_return]: ../chapitre13/fonctions.html
+[impl]: ../chapitre8/methodes.html
+[struct]: ../chapitre3/struct.html

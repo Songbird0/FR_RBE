@@ -1,6 +1,6 @@
 # Exemple d'utilisation : Petite précision
 
-Nous allons créer une méthode chargée de calculer dans deux unités de mesure différentes ([le pied](https://fr.wikipedia.org/wiki/Pied_%28unité%29) et [le millimètre](https://fr.wikipedia.org/wiki/Mètre#Description_des_sous-multiples)) et nous implémenterons le `trait` `Add` avec un type générique fantôme. Voici l'implémentation du `trait` `Add` :
+Nous allons créer une méthode chargée de calculer dans deux unités de mesure différentes ([le pied][pied] et [le millimètre][mm]) et nous implémenterons le `trait` `Add` avec un type générique fantôme. Voici l'implémentation du `trait` `Add` :
 
 ```rust,ignore
 // Cette implémentation devrait imposer: `Self + RHS = Output`
@@ -26,4 +26,15 @@ Voici l'implémentation complète :
 
 ## Voir aussi
 
-[Le système d'emprunts](../chapitre13/borrowing.html), [les restrictions](../chapitre12/restrictions.html), [les énumérations](../chapitre3/enum.html), [impl et self](../chapitre8/methodes.html), [la surcharge des opérateurs](../chapitre14/opoverloading.html), [le pattern `ref`](../chapitre13/refpattern.html), [les `traits`](../chapitre14/traits.html) et [les tuples](../chapitre3/struct.html).
+[Le système d'emprunts][emprunts], [les restrictions][bounds], [les énumérations][enums], [impl et self][impl_n_self], [la surcharge des opérateurs][overloading], [le pattern `ref`][ref], [les `traits`][traits] et [les tuples][tuples].
+
+[pied]: https://fr.wikipedia.org/wiki/Pied_%28unité%29
+[mm]: https://fr.wikipedia.org/wiki/Mètre#Description_des_sous-multiples
+[emprunts]: ../chapitre13/borrowing.html
+[bounds]: ../chapitre12/restrictions.html
+[enums]: ../chapitre3/enum.html
+[impl_n_self]: ../chapitre8/methodes.html
+[overloading]: ../chapitre14/opoverloading.html
+[ref]: ../chapitre13/refpattern.html
+[traits]: ../chapitre14/traits.html
+[tuples]: ../chapitre3/struct.html

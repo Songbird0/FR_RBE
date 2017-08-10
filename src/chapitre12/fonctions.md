@@ -10,4 +10,7 @@ Une fonction dont le type des paramètres est explicité devrait ressembler à c
 
 ## Voir aussi
 
-[Les fonctions](../chapitre8/fonctions.html), [les structures](../chapitre3/struct.html).
+[Les fonctions][fonctions], [les structures][struct].
+
+[fonctions]: ../chapitre8/fonctions.html
+[struct]: ../chapitre3/struct.html

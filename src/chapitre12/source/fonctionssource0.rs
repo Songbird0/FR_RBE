@@ -12,7 +12,7 @@ fn reg_fn(_s: S) {}
 
 // On définit une fonction nommée `gen_spec_t` qui prend un argument `_s` de type 
 // `SGen<T>`.
-// La type d'argument imposé à la structure SGen<T> est précisé, mais puisque 
+// Le type d'argument imposé à la structure SGen<T> est précisé, mais puisque 
 // `A` n'est pas précédé par le type générique `<A>`, le type n'est pas générique.
 fn gen_spec_t(_s: SGen<A>) {}
 //          ^ il aurait fallu déclarer `A` comme générique: `<A>`.

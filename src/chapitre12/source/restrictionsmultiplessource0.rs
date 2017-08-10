@@ -16,7 +16,7 @@ fn main() {
     let vec = vec![1, 2, 3];
 
     compare_prints(&string);
-    //compare_prints(&array);
+    // compare_prints(&array);
     // TODO ^ Essayez de décommenter cette ligne.
 
     compare_types(&array, &vec);

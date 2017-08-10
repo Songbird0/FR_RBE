@@ -6,4 +6,7 @@ Il est possible d'additionner les conditions grâce à l'opérateur `+`. Tout co
 
 ## Voir aussi
 
-[std::fmt](../chapitre1/affichage.html), [les traits](../chapitre14/traits.html).
+[std::fmt][fmt], [les traits][traits].
+
+[fmt]: ../chapitre1/affichage.html
+[traits]: ../chapitre14/traits.html

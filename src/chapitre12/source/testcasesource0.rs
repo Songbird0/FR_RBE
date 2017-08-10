@@ -50,5 +50,5 @@ fn main() {
 
     // Les opérations illogiques échouent comme prévu:
     // Erreur à la compilation: mismatched type.
-    //let one_feter = one_foot + one_meter;
+    // let one_feter = one_foot + one_meter;
 }

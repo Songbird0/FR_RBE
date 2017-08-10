@@ -30,10 +30,10 @@ fn main() {
     };
 
     // Erreur! Les deux ressources ne peuvent pas être comparées:
-    //println!("_tuple1 == _tuple2 yields: {}",
+    // println!("_tuple1 == _tuple2 yields: {}",
     //          _tuple1 == _tuple2);
 
     // Erreur! Les deux ressources ne peuvent pas être comparées:
-    //println!("_struct1 == _struct2 yields: {}",
+    // println!("_struct1 == _struct2 yields: {}",
     //          _struct1 == _struct2);
 }

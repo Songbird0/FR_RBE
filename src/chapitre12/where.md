@@ -21,8 +21,10 @@ impl <A, D> MyTrait<A, D> for YourType where
 
 {{#playpen source/wheresource0.rs}}
 
-{{#playpen source/wheresource1.rs}}
-
 ## Voir aussi
 
-[RFC pour la condition/clause `where`](https://github.com/rust-lang/rfcs/blob/master/text/0135-where.md), [les structures](../chapitre3/struct.html), [les traits](../chapitre14/traits.html).
+[RFC pour la condition/clause `where`][rfc], [les structures][struct], [les traits][traits].
+
+[rfc]: https://github.com/rust-lang/rfcs/blob/master/text/0135-where.md
+[struct]: ../chapitre3/struct.html
+[traits]: ../chapitre14/traits.html
