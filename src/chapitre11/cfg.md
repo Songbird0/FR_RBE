@@ -12,4 +12,8 @@ Tous deux possèdent la même syntaxe :
 
 ## Voir aussi
 
-[La référence de l'attribut cfg](https://doc.rust-lang.org/reference/attributes.html#conditional-compilation), [std::cfg!](https://doc.rust-lang.org/std/macro.cfg.html) et [les macros](../chapitre15/systememacro.html).
+[La référence de l'attribut cfg][cfg], [std::cfg!][cfg_macro] et [les macros][macros].
+
+[cfg]: https://doc.rust-lang.org/reference/attributes.html#conditional-compilation
+[cfg_macro]: https://doc.rust-lang.org/std/macro.cfg.html
+[macros]: ../chapitre15/systememacro.html
