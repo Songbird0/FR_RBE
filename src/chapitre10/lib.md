@@ -1,9 +1,9 @@
 # Créer une bibliothèque
 
-Commençons par créer une bibliothèque dont nous nous servirons ensuite pour l'importer dans une autre `crate`(« caisse »).
+Commençons par créer une bibliothèque dont nous nous servirons ensuite pour l'importer dans une autre `crate`.
 
 ```rust,ignore
-// rary.rs
+// Dans le fichier rary.rs
 pub fn public_function() {
     println!("called rary's `public_function()`");
 }
@@ -25,4 +25,6 @@ $ ls lib*
 library.rlib
 ```
 
-Les bibliothèques sont préfixées par la séquence « lib » et possèdent, par défaut, *le nom du fichier utilisé pour créer la crate* (en l'occurrence `rary.rs`). Ce comportement peut, bien entendu, être modifié en utilisant l'attribut [`crate_name`](../chapitre11/metacrate.html).
+Les bibliothèques sont préfixées par la séquence « lib » et possèdent, par défaut, *le nom du fichier utilisé pour créer la crate* (en l'occurrence `rary.rs`). Ce comportement peut, bien entendu, être modifié en utilisant l'attribut [`crate_name`][crate_name].
+
+[crate_name]: ../chapitre11/metacrate.html 
