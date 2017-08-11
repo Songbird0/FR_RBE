@@ -31,7 +31,7 @@ fn main() {
 
     // La variable peut être libérée manuellement en utilisant la fonction `(std::mem::)drop`.
     drop(_a);
-    // TODO Essayez de commenter cette ligne.
+    // TODO ^ Essayez de commenter cette ligne.
 
     println!("end of the main function");
 

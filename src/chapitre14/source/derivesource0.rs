@@ -2,7 +2,7 @@
 #[derive(PartialEq, PartialOrd)]
 struct Centimeters(f64);
 
-// `Inches` est un tuple qui peut être comparé.
+// `Inches` est un tuple qui peut être affiché.
 #[derive(Debug)]
 struct Inches(i32);
 

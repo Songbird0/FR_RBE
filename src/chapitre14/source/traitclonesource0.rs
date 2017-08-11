@@ -1,4 +1,4 @@
-// Une structure "unitaire" sans ressources.
+// Une structure unitaire sans ressources.
 #[derive(Debug, Clone, Copy)]
 struct Nil;
 
@@ -16,7 +16,7 @@ fn main() {
     println!("original: {:?}", nil);
     println!("copy: {:?}", copied_nil);
 
-    // On créé un objet `Pair`.
+    // On crée un objet `Pair`.
     let pair = Pair(Box::new(1), Box::new(2));
     println!("original: {:?}", pair);
 
@@ -25,16 +25,16 @@ fn main() {
     println!("copy: {:?}", moved_pair);
 
     // Erreur! `pair` ne possède plus ses ressources.
-    //println!("original: {:?}", pair);
+    // println!("original: {:?}", pair);
     // TODO ^ Essayez de décommenter cette ligne.
 
     // On copie `moved_pair` dans `cloned_pair` (ressources incluses).
     let cloned_pair = moved_pair.clone();
-    // On libère la ressource originale avec std::mem::drop.
+    // On libère la ressource originale avec `std::mem::drop`.
     drop(moved_pair);
 
     // Erreur! `moved_pair` a été libérée.
-    //println!("copy: {:?}", moved_pair);
+    // println!("copy: {:?}", moved_pair);
     // TODO ^ Essayez de décommenter cette ligne.
 
     // La copie obtenue par `.clone()` peut toujours être utilisée !
