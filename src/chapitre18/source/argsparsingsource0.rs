@@ -56,7 +56,6 @@ fn main() {
                 },
             }
         },
-        // all the other cases
         // On couvre tous les autres cas...
         _ => {
             // ... en affichant l'aide.

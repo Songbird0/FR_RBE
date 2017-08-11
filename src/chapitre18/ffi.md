@@ -1,12 +1,12 @@
 # FFI
 
-Rust fournit une Interface pour Fonction Externe (Foreign Function Interface) pour les bibliothèques écrites en C. Les fonctions externes peuvent être déclarées dans un bloc `extern` annoté de l'attribut `#[link]` contenant le nom de la bibliothèque externe.
+Rust fournit une Interface pour Fonction Externe ("Foreign Function Interface", dans la langue de Shakespear) pour les bibliothèques écrites en C. Les fonctions externes peuvent être déclarées dans un bloc `extern` annoté de l'attribut `#[link]` contenant le nom de la bibliothèque externe.
 
 ```rust,ignore
 // Dans le fichier ffi.rs
 use std::fmt;
 
-// Ce bloc externe lie à la bibliothèque libm.
+// Ce bloc externe lie la bibliothèque libm.
 #[link(name = "m")]
 extern {
     // Ceci est une fonction externe 
@@ -18,7 +18,7 @@ fn main() {
     // z = -1 + 0i
     let z = Complex { re: -1., im: 0. };
 
-    // Appeler une fonction externe est une opération "à risque".
+    // Appeler une fonction externe est une opération dite "à risque".
     let z_sqrt = unsafe {
         csqrtf(z)
     };
@@ -49,7 +49,7 @@ impl fmt::Debug for Complex {
 $ rustc ffi.rs && ./ffi
 the square root of -1+0i is 0+1i
 ```
-Puisque l'appel de fonctions externes est considéré comme "à risque", il est courant d'écrire des wrappers "sécurisés".
+Puisque l'appel de fonctions externes est considéré comme "à risque", il est courant d'écrire des wrappers sécurisés.
 
 ```rust,ignore
 // Dans le fichier safe.rs
