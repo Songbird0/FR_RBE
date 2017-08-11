@@ -3,7 +3,7 @@
 Les macros permettent l'écriture de code DRY en recyclant les parties communes d'un ensemble de fonctions/tests. Voici un exemple qui implémente et test les opérateurs `+=`, `*=` et `-=` sur la structure `Vec<T>`:
 
 ```rust,ignore
-// dry.rs
+// Dans le fichier dry.rs
 use std::ops::{Add, Mul, Sub};
 
 macro_rules! assert_equal_len {

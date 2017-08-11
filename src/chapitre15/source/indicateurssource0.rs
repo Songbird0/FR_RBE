@@ -34,7 +34,7 @@ fn main() {
 
     print_result!(1u32 + 1);
 
-    // Recall that blocks are expressions too!
+    // Rappelez-vous que les blocs sont également des expressions !
     print_result!({
         let x = 1u32;
 
