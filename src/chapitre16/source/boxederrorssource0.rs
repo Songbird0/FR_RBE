@@ -34,7 +34,7 @@ impl error::Error for DoubleError {
             // Vous n'êtes pas obligé de renseigner la même description que 
             // pour `Display`.
             DoubleError::EmptyVec => "empty vectors not allowed",
-            // Ceci implémente déjà `Error`, on se reporte à sa propose implémentation.
+            // Ceci implémente déjà `Error`, on se reporte à sa propre implémentation.
             DoubleError::Parse(ref e) => e.description(),
         }
     }

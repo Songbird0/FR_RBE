@@ -53,7 +53,7 @@ fn main() {
 
     let cooked_apple = cook(chop(peel(apple)));
     let cooked_carrot = cook(chop(peel(carrot)));
-    // Let's try the simpler looking `process()` now.
+    // Vous remarquerez que `process()` est bien plus lisible.
     let cooked_potato = process(potato);
 
     eat(cooked_apple);

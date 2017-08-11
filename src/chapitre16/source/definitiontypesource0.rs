@@ -17,7 +17,7 @@ enum DoubleError {
     Parse(ParseIntError),
 }
 
-// La génération d'une erreur est totalement séparée de la manière dont elle est affichée,
+// La génération d'une erreur fait abstraction de la manière dont elle est affichée,
 // nul besoin de s'occuper de la mécanique sous-jacente.
 //
 // Notez que nous ne stockons aucune information supplémentaire à propos de l'erreur.

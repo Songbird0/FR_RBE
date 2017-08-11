@@ -11,7 +11,7 @@ fn have_ingredients(food: Food) -> Option<Food> {
     }
 }
 
-// Nous avons la recette de tous les mets sauf Cordon Bleu.
+// Nous avons la recette de tous les mets sauf celle du Cordon Bleu.
 fn have_recipe(food: Food) -> Option<Food> {
     match food {
         Food::CordonBleu => None,

@@ -10,4 +10,8 @@ Dans l'exemple suivant, `cookable_v2()` renvoie une instance de `Option<Food>`. 
 
 ## Voir aussi
 
-[Les closures](../chapitre8/closures.html), [Option](https://doc.rust-lang.org/std/option/enum.Option.html) et [Option::and_then()](https://doc.rust-lang.org/std/option/enum.Option.html#method.and_then).
+[Les closures][closures], [Option][option] et [Option::and_then()][andthen].
+
+[closures]: ../chapitre8/closures.html
+[option]: https://doc.rust-lang.org/std/option/enum.Option.html
+[andthen]: https://doc.rust-lang.org/std/option/enum.Option.html#method.and_then
