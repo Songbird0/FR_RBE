@@ -34,7 +34,7 @@ fn main() {
 
     // Chaîne allouée dans le tas.
     let alice = String::from("I like dogs");
-    // Nouvelle allocation mémorie et stockage de la chaîne modifiée 
+    // Nouvelle allocation mémoire et stockage de la chaîne modifiée 
     // à cet endroit.
     let bob: String = alice.replace("dog", "cat");
 

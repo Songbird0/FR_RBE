@@ -1,6 +1,6 @@
 # La macro `panic!`
 
-La macro `panic!` peut être utilisée pour générer une panic, un plantage et dérouler la pile. Pendant le déroulement de la pile, l'exécution prendra soin de libérer toutes les ressources *possédées* par le fil d'exécution en appelant le destructeur de chaque objet.
+La macro `panic!` peut être utilisée pour générer un plantage et dérouler la pile. Pendant le déroulement de la pile, l'exécution prendra soin de libérer toutes les ressources *possédées* par le fil d'exécution en appelant le destructeur de chaque objet.
 
 Puisque nous interagissons avec nos programmes en n'utilisant qu'un seul fil d'exécution, `panic!` renverra un message d'erreur puis mettra un terme à l'exécution.
 

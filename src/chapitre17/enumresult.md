@@ -1,6 +1,6 @@
 # L'énumération `Result`
 
-Nous avons vu que l'enum `Option` peut être utilisé en tant que valeur de retour depuis les fonctions pouvant échouer, où `None` peut être renvoyé pour indiquer un échec. Il est parfois important d'expliquer *pourquoi* une opération a échoué. Pour ce faire, nous pouvons utiliser `Result`.
+Nous avons vu que l'enum `Option` peut être utilisée en tant que valeur de retour depuis les fonctions pouvant échouer, où `None` peut être renvoyé pour indiquer un échec. Il est parfois important d'expliquer *pourquoi* une opération a échoué. Pour ce faire, nous pouvons utiliser `Result`.
 
 `Result<T, E>` possède deux variantes:
 
