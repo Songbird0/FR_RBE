@@ -1,6 +1,6 @@
 # Opérations à risque
 
-Pour reprendre ce que la documentation officielle dit: "Il faudrait essayer de minimiser la quantité de code à risque dans la base du code." . Avec ceci en tête, commençons ! 
+Pour reprendre ce que la documentation officielle dit: "Il faudrait essayer de minimiser la quantité de code à risque dans la base du code."  Avec ceci en tête, commençons ! 
 Les blocs unsafe en Rust sont utilisés pour contourner les protections mises en place par le compilateur; plus précisément, il y a quatre principaux cas d'utilisation que nous pouvons retrouver dans les blocs unsafe:
 
 1. Le déréférencement des pointeurs bruts;
