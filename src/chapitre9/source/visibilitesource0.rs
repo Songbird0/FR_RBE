@@ -49,24 +49,24 @@ fn main() {
     function();
     my::function();
 
-    // Les items publiques, y compris ceux qui se trouvent dans les modules 
+    // Les items publics, y compris ceux qui se trouvent dans les modules 
     // imbriqués, peuvent être sollicités en dehors du module parent.
     my::indirect_access();
     my::nested::function();
 
 
     // Les items privés d'un module ne peuvent pas être directement sollicités,
-    // même si ils sont imbriqués dans un module publique:
+    // même si ils sont imbriqués dans un module public:
 
     // Erreur! `private_function` est privée.
-    //my::private_function();
+    // my::private_function();
     // TODO ^ Essayez de décommenter cette ligne.
 
     // Erreur! `private_function` est privée.
-    //my::nested::private_function();
+    // my::nested::private_function();
     // TODO ^ Essayez de décommenter cette ligne.
 
     // Erreur! `private_nested` est un module privé.
-    //my::private_nested::function();
+    // my::private_nested::function();
     // TODO ^ Essayez de décommenter cette ligne.
 }

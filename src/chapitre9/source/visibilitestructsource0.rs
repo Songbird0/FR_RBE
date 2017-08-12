@@ -1,5 +1,5 @@
 mod my {
-    // Une structure publique avec un champ publique générique de type `T`.
+    // Une structure publique avec un champ public générique de type `T`.
     pub struct WhiteBox<T> {
         pub contents: T,
     }
@@ -11,7 +11,7 @@ mod my {
     }
 
     impl<T> BlackBox<T> {
-        // Constructeur publique.
+        // Constructeur public.
         pub fn new(contents: T) -> BlackBox<T> {
             BlackBox {
                 contents: contents,
@@ -21,7 +21,7 @@ mod my {
 }
 
 fn main() {
-    // Les structures publiques possédant des champs publiques 
+    // Les structures publiques possédant des champs publics 
     // peuvent être instanciées avec les séparateurs `{}`.
     let white_box = my::WhiteBox { contents: "public information" };
 
@@ -31,15 +31,15 @@ fn main() {
     // Les structures publiques composées de champs privés ne peuvent pas être 
     // instanciées de manière "classique" (i.e. en précisant le nom des champs).
     // Erreur! `BlackBox` possèdent des champs privés.
-    //let black_box = my::BlackBox { contents: "classified information" };
+    // let black_box = my::BlackBox { contents: "classified information" };
     // TODO ^ Essayez de décommenter cette ligne.
 
-    // En revanche, elles peuvent être créées avec un constructeur publique.
+    // En revanche, elles peuvent être créées avec un constructeur public.
     let _black_box = my::BlackBox::new("classified information");
 
     // Les champs privés d'une structure publique ne peuvent pas être 
     // sollicités directement.
     // Erreur! Le champ `contents` est privé.
-    //println!("The black box contains: {}", _black_box.contents);
+    // println!("The black box contains: {}", _black_box.contents);
     // TODO ^ Essayez de décommenter cette ligne.
 }

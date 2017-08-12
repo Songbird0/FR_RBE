@@ -35,13 +35,13 @@ fn main() {
 
     println!("the reversed pair is {:?}", reverse(pair));
 
-    // Pour créer un élément de tuple, une virugile est requise pour différencier 
+    // Pour créer un élément de tuple, une virgule est requise pour différencier 
     // un élément de tuple d'un simple litéral entouré de parenthèses.
     println!("one element tuple: {:?}", (5u32,));
     println!("just an integer: {:?}", (5u32));
 
-    // Les tuples peuvent être "destructuré", décomposé pour créer de 
-    // nouvelles assignations.
+    // Les tuples peuvent être "déstructurés" (i.e. décomposés pour créer de 
+    // nouvelles assignations).
     let tuple = (1, "hello", 4.5, true);
 
     let (a, b, c, d) = tuple;

@@ -4,7 +4,7 @@ struct Container(i32, i32);
 // dans le conteneur.
 // Le conteneur pourra également fournir la première ou dernière valeur.
 trait Contains {
-    // Nous définissons une bonne fois pour toute les types génériques 
+    // Nous définissons une bonne fois pour tous les types génériques 
     // que les méthodes/fonctions pourront utiliser.
     type A;
     type B;

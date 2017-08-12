@@ -20,7 +20,7 @@ fn main() {
 
     // Erreur! `short_lived_binding` n'existe pas dans ce contexte.
     // println!("outer short: {}", short_lived_binding);
-    // FIXME ^ Commentez cette ligne pour voir l'erreur disparaître.
+    // FIXME ^ Décommentez cette ligne pour voir l'erreur.
 
     println!("outer long: {}", long_lived_binding);
 

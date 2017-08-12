@@ -13,7 +13,6 @@ fn main() {
     xs.push(4);
     println!("Vector: {:?}", xs);
 
-    // Error! Immutable vectors can't grow
     // Erreur! Les vecteurs immuables ne peuvent pas être 
     // agrandis.
     // collected_iterator.push(0);
@@ -29,6 +28,6 @@ fn main() {
     println!("Pop last element: {:?}", xs.pop());
 
     // Une indexaction hors des capacités du vecteur 
-    // mène un plantage du programme.
+    // mène à un plantage du programme.
     println!("Fourth element: {}", xs[3]);
 }

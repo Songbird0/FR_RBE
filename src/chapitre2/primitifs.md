@@ -12,10 +12,12 @@ Le langage Rust offre une grande variété de primitifs. Liste non-exhaustive :
 * Les tableaux : `[1, 2, 3]`;
 * Les tuples : `(1, true)`.
 
-Le type des variables peut toujours être spécifié. Les nombres peuvent être également typés grâce à un suffixe, ou par défaut (laissant le compilateur les typer). Les entiers, par défaut, sont typés `i32` tandis les réels sont typés `f64`.
+Le type des variables peut toujours être spécifié. Les nombres peuvent également être typés grâce à un suffixe, ou par défaut (laissant le compilateur les typer). Les entiers, par défaut, sont typés `i32` tandis les réels sont typés `f64`.
 
 {{#playpen source/primitifssource0.rs}}
 
 ## Voir aussi
 
-[La bibliothèque standard](https://doc.rust-lang.org/std/).
+[La bibliothèque standard][std].
+
+[std]: https://doc.rust-lang.org/std/

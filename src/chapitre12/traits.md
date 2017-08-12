@@ -6,4 +6,8 @@ Bien entendu, les traits peuvent également être génériques. Dans cette secti
 
 ## Voir aussi
 
-[La documentation du trait Drop](http://doc.rust-lang.org/std/ops/trait.Drop.html), [le chapitre sur les structures](../chapitre3/struct.html) et [les traits](../chapitre14/traits.html).
+[La documentation du trait Drop][drop], [le chapitre sur les structures][struct] et [les traits][traits].
+
+[drop]: http://doc.rust-lang.org/std/ops/trait.Drop.html
+[struct]: ../chapitre3/struct.html
+[traits]: ../chapitre14/traits.html

@@ -22,7 +22,7 @@ fn print_multi<'a, 'b>(x: &'a i32, y: &'b i32) {
 // Toutefois, veillez à renvoyer la bonne lifetime.
 fn pass_x<'a, 'b>(x: &'a i32, _: &'b i32) -> &'a i32 { x }
 
-//fn invalid_output<'a>() -> &'a i32 { &7 }
+// fn invalid_output<'a>() -> &'a i32 { &7 }
 // La déclaration ci-dessus est invalide: `'a` doit, au moins, 
 // survivre à la fonction. Ici, `&7` créerait un entier et récupérerait 
 // sa référence. La ressource serait alors perdue une fois l'exécution 

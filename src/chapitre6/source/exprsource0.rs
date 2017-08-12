@@ -1,5 +1,5 @@
 fn main() {
-    // statement
-    // statement
-    // statement
+    // déclaration
+    // déclaration
+    // déclaration
 }

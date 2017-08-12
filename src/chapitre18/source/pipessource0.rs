@@ -6,7 +6,7 @@ static PANGRAM: &'static str =
 "the quick brown fox jumped over the lazy dog\n";
 
 fn main() {
-    // On créé un processus dans lequel la commande `wc` va s'exécuter.
+    // On crée un processus dans lequel la commande `wc` va s'exécuter.
     let process = match Command::new("wc")
                                 .stdin(Stdio::piped())
                                 .stdout(Stdio::piped())

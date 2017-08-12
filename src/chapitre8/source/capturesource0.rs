@@ -36,13 +36,13 @@ fn main() {
     inc();
     inc();
 
-    //let reborrow = &mut count;
+    // let reborrow = &mut count;
     // ^ TODO: Essayez de décommenter cette ligne.
 
     // Un entier non-copiable.
     let movable = Box::new(3);
 
-    // `mem::drop` traite (prend possession de) ses paramètres par valeur. 
+    // `mem::drop` prend possession de ses paramètres. 
     // Un type pouvant être copié devrait être copié dans la closure, 
     // laissant la ressource originale intacte. Un type qui ne peut pas 
     // être copié doit être déplacé et donc `movable` appartiendra à la closure.
@@ -51,8 +51,8 @@ fn main() {
         mem::drop(movable);
     };
 
-    // `consume` consomme la variable et ne peut donc être appelée qu'une seule fois.
+    // `consume` prend possession de la variable et ne peut donc être appelée qu'une seule fois.
     consume();
-    //consume();
+    // consume();
     // ^ TODO: Essayez de décommenter ce second appel.
 }

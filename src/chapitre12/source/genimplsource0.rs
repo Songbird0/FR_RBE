@@ -2,7 +2,7 @@ struct S; // On déclare le type concret `S`.
 struct GenericVal<T>(T); // On déclare le type générique `GenericVal`.
 
 // Implémentation de GenericVal où nous précisons que cette méthode doit être
-// implémentée uniquement si le type est `f32`.
+// implémentée uniquement pour le type `f32`.
 impl GenericVal<f32> {
     fn say_hello_f32(&self) -> (){
         println!("I'm a float! :D");

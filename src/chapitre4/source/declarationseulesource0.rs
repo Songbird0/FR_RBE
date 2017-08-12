@@ -15,7 +15,7 @@ fn main() {
 
     // Erreur! Utilisation d'une variable non-initialisée.
     // println!("another binding: {}", another_binding);
-    // FIXME ^ Commentez cette ligne pour voir l'erreur disparaître.
+    // FIXME ^ Décommentez cette ligne pour voir l'erreur.
     another_binding = 1;
 
     println!("another binding: {}", another_binding);

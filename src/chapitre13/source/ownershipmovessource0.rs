@@ -27,9 +27,9 @@ fn main() {
     // `a` et `b` sont désormais des pointeurs sur la même donnée allouée dans le 
     // tas, mais `b` la possède, désormais.
 
-    // Erreur! `a` ne peut plus accéder à la donnée car il ne "possède" plus 
+    // Erreur! `a` ne peut plus accéder à la donnée car il ne possède plus 
     // le bloc mémoire.
-    //println!("a contains: {}", a);
+    // println!("a contains: {}", a);
     // TODO ^ Essayez de décommenter cette ligne.
 
     // Cette fonction prend possession de la mémoire allouée dans le tas 
@@ -39,8 +39,8 @@ fn main() {
     // Puisque la mémoire allouée a été libérée à partir d'ici, 
     // cette action consisterait à déréférencer de la mémoire libérée, 
     // mais cela est interdit par le compilateur.
-    // Erreur! `b` ne peut plus accéder à la donnée car il ne "possède" plus 
+    // Erreur! `b` ne peut plus accéder à la donnée car il ne possède plus 
     // le bloc mémoire.
-    //println!("b contains: {}", b);
+    // println!("b contains: {}", b);
     // TODO ^ Essayez de décommenter cette ligne.
 }

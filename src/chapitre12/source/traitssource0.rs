@@ -24,7 +24,7 @@ fn main() {
     // `empty` et `null` sont désalloués.
     empty.double_drop(null);
 
-    //empty;
-    //null;
+    // empty;
+    // null;
     // ^ TODO: Essayez de décommenter ces lignes.
 }

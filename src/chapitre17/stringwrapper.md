@@ -8,4 +8,7 @@ Une instance de `String` est stockée en tant que vecteur d'octets (`Vec<u8>`) m
 
 {{#playpen source/stringwrappersource0.rs}}
 
-Les méthodes rattachées à `str`/`String` peuvent être trouvées dans les modules [std::str](https://doc.rust-lang.org/std/str/ "Documentation officielle du module str") et [std::string](https://doc.rust-lang.org/std/string/ "Documentation officielle du module string").
+Les méthodes rattachées à `str`/`String` peuvent être trouvées dans les modules [std::str][str] et [std::string][string].
+
+[str]: https://doc.rust-lang.org/std/str/
+[string]: https://doc.rust-lang.org/std/string/

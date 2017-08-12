@@ -12,4 +12,8 @@ L'exemple ci-dessous illustre les explications précédentes :
 
 ## Voir aussi
 
-[La généricité](../chapitre12/genericite.html), [les restrictions](../chapitre12/restrictions.html) et [les restrictions multiples](../chapitre12/restrictionsmultiples.html).
+[La généricité][genericite], [les restrictions][bounds] et [les restrictions multiples][mult_bounds].
+
+[genericite]: ../chapitre12/genericite.html
+[bounds]: ../chapitre12/restrictions.html
+[mult_bounds]: ../chapitre12/restrictionsmultiples.html

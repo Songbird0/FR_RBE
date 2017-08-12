@@ -22,8 +22,8 @@ fn main() {
 
     let greeting = "hello";
     // Un type qui ne peut pas être copié.
-    // `to_owned` crée une ressource "possédée" par 
-    // l'assignation `farewell` à partir d'une ressource empruntée.
+    // `to_owned` crée une ressource dont 
+    // l'assignation `farewell` sera responsable, à partir d'une ressource empruntée.
     let mut farewell = "goodbye".to_owned();
 
     // Capture deux variables: `greeting` par référence et 

@@ -5,7 +5,7 @@
 struct Borrowed<'a>(&'a i32);
 
 // Même combat, ces deux références doivent survivre à l'instance
-// (ou les instances)  de la structure `NamedBorrowed`.
+// (ou aux instances)  de la structure `NamedBorrowed`.
 #[derive(Debug)]
 struct NamedBorrowed<'a> {
     x: &'a i32,

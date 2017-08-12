@@ -3,7 +3,7 @@
 L'attribut `crate_type` peut être utilisé pour renseigner au compilateur le type de la `crate` (i.e. exécutable ou bibliothèque(et quel type de bibliothèque)) et l'attribut `crate_name` est utilisé pour renseigner le nom de la `crate`.
 
 ```rust,ignore
-// lib.rs
+// Dans le fichier lib.rs
 // Cette crate est une bibliothèque.
 #![crate_type = "lib"]
 // Cette bibliothèque est nommée "rary".

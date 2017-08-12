@@ -12,4 +12,9 @@ Puisque le type créé implicitement est inconnu, son utilisation dans le corps 
 
 ## Voir aussi
 
-[Une analyse complète des closures](http://huonw.github.io/blog/2015/05/finding-closure-in-rust/), [Fn](http://doc.rust-lang.org/std/ops/trait.Fn.html), [FnMut](http://doc.rust-lang.org/std/ops/trait.FnMut.html) et [FnOnce](http://doc.rust-lang.org/std/ops/trait.FnOnce.html).
+[Une analyse complète des closures][analyse], [Fn][Fn], [FnMut][FnMut] et [FnOnce][FnOnce].
+
+[analyse]: http://huonw.github.io/blog/2015/05/finding-closure-in-rust/
+[Fn]: http://doc.rust-lang.org/std/ops/trait.Fn.html
+[FnMut]: http://doc.rust-lang.org/std/ops/trait.FnMut.html
+[FnOnce]: http://doc.rust-lang.org/std/ops/trait.FnOnce.html

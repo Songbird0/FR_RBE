@@ -4,4 +4,6 @@ Chaîner les résultats en utilisant match peut être très chaotique; heureusem
 
 {{#playpen source/trymacrosource0.rs}}
 
-N'hésitez pas à consulter la [documentation](https://doc.rust-lang.org/std/result/index.html "Documentation officielle du module result"), de nombreuses méthodes sont disponibles pour créer et gérer les `Result`.
+N'hésitez pas à consulter la [documentation][doc], de nombreuses méthodes sont disponibles pour créer et gérer les `Result`.
+
+[doc]: https://doc.rust-lang.org/std/result/index.html

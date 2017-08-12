@@ -8,4 +8,6 @@ L'ensemble `for in` peut être utilisé pour itérer à l'aide d'une instance `I
 
 ## Voir aussi
 
-[Les itérateurs](../chapitre14/iterators.html).
+[Les itérateurs][iterators].
+
+[iterators]: ../chapitre14/iterators.html

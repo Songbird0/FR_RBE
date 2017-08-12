@@ -10,4 +10,7 @@ La bibliothèque standard fournit de nombreux types complexes qui étendent dras
 
 ## Voir aussi
 
-[Les primitifs](../chapitre2/primitifs.html "Chapitre 2: Les primitifs") et [la bibliothèque standard](https://doc.rust-lang.org/std/ "Documentation officielle de la bibliothèque standard").
+[Les primitifs][primitifs] et [la bibliothèque standard][std].
+
+[primitifs]: ../chapitre2/primitifs.html
+[std]: https://doc.rust-lang.org/std/

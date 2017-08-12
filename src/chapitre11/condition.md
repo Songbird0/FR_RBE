@@ -3,7 +3,7 @@
 Certaines conditions (e.g. `target_os`) sont fournies par `rustc`. Il est toutefois possible de passer des conditions personnalisées à `rustc` en utilisant le flag `--cfg`.
 
 ```rust,ignore
-// custom.rs
+// Dans le fichier custom.rs
 #[cfg(some_condition)]
 fn conditional_function() {
     println!("condition met!")

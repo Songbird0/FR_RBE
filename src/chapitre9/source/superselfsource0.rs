@@ -40,10 +40,10 @@ mod my {
 
         // Si vous ne spécifiez aucun des deux mot-clés, le compilateur 
         // comprendra que vous essayez d'utiliser une ressource se trouvant 
-        // dans le "crate scope" (contexte racine).
+        // dans le contexte de la crate.
         // On va donc assigner un nouvel identificateur à `cool::function()` se 
-        // trouvant dans le contexte racine.
-        // Le contexte racine représente tout ce qui se trouve en-dehors des modules.
+        // trouvant dans le contexte de la crate.
+        // Le contexte de la crate représente tout ce qui se trouve en-dehors des modules.
         {
             use cool::function as root_function;
             root_function();

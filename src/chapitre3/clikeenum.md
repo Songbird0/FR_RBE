@@ -6,4 +6,6 @@ Les énumérations du langage Rust peuvent également adopter la même syntaxe q
 
 ## Voir aussi
 
-[La coercition](../chapitre5/casting.html).
+[Le casting][casting].
+
+[casting]: ../chapitre5/casting.html

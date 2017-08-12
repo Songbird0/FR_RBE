@@ -9,7 +9,7 @@ fn main() {
         // Erreur! `_mutable_integer` est gelé dans ce contexte
         // (i.e. la ressource est empruntée).
         // _mutable_integer = 50;
-        // FIXME ^ Commentez cette ligne.
+        // FIXME ^ Décommentez/commentez cette ligne.
 
         // On sort du contexte de `_large_integer`.
     }

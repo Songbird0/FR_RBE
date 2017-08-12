@@ -5,7 +5,7 @@ fn main() {
 
     // Crée un vecteur vide (un tableau dont la taille n'est pas définie).
     let mut vec = Vec::new();
-    // A ce niveau, le compilateur ne connaît pas encore le type exact de `vec`,
+    // À ce niveau, le compilateur ne connaît pas encore le type exact de `vec`,
     // il sait simplement que c'est un vecteur de quelque chose (`Vec<_>`).
 
     // On ajoute `elem` dans le vecteur.

@@ -6,4 +6,9 @@ Une énumération est déstructurée de la même manière :
 
 ## Voir aussi
 
-[L'attribut allow(...)](../chapitre11/deadcode.html), les modèles de couleur [FR](https://fr.wikipedia.org/wiki/Modèle_colorimétrique) ou [EN](https://en.wikipedia.org/wiki/Color_model) et [les énumérations](../chapitre3/enum.html).
+[L'attribut allow(...)][allow], les modèles de couleur [FR][fr_color] ou [EN][en_color] et [les énumérations][enums].
+
+[allow]: ../chapitre11/deadcode.html
+[fr_color]: https://fr.wikipedia.org/wiki/Modèle_colorimétrique
+[en_color]: https://en.wikipedia.org/wiki/Color_model
+[enums]: ../chapitre3/enum.html

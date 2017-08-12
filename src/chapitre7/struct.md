@@ -6,4 +6,7 @@ Une structure peut également être déstructurée comme suit :
 
 ## Voir aussi
 
-[Les structures](../chapitre3/struct.html), [ref](../chapitre13/refpattern.html).
+[Les structures][struct], [ref][ref].
+
+[struct]: ../chapitre3/struct.html
+[ref]: ../chapitre13/refpattern.html

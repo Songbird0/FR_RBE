@@ -19,14 +19,14 @@ fn failed_borrow<'a>() {
 }
 
 fn main() {
-    // On créé ces variables pour les emprunter 
+    // On crée ces variables pour les emprunter 
     // un peu plus bas.
     let (four, nine) = (4, 9);
 
     // `print_refs` emprunte (`&`) les deux ressources précédemment 
     // créées.
     print_refs(&four, &nine);
-    // Une ressource empruntée doit "survivre" à la fonction qui l'emprunte.
+    // Une ressource empruntée doit survivre à la fonction qui l'emprunte.
     // Autrement dit, la durée de vie de `four` et `nine` doit être 
     // plus longue que celle de `print_refs`.
 

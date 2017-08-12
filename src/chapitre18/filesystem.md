@@ -38,7 +38,7 @@ fn touch(path: &Path) -> io::Result<()> {
 
 fn main() {
     println!("`mkdir a`");
-    // Créé un répertoire et renvoie un objet `io::Result<()>`.
+    // Crée un répertoire et renvoie un objet `io::Result<()>`.
     match fs::create_dir("a") {
         Err(why) => println!("! {:?}", why.kind()),
         Ok(_) => {},
@@ -51,7 +51,7 @@ fn main() {
     });
 
     println!("`mkdir -p a/c/d`");
-    // Créé un répertoire récursivement, renvoie un objet `ìo::Result<()>`.
+    // Crée un répertoire récursivement, renvoie un objet `ìo::Result<()>`.
     fs::create_dir_all("a/c/d").unwrap_or_else(|why| {
         println!("! {:?}", why.kind());
     });
@@ -62,7 +62,7 @@ fn main() {
     });
 
     println!("`ln -s ../b.txt a/c/b.txt`");
-    // Créé un lien symbolique, renvoie un objet `io::Result<()>`.
+    // Crée un lien symbolique, renvoie un objet `io::Result<()>`.
     if cfg!(target_family = "unix") {
         unix::fs::symlink("../b.txt", "a/c/b.txt").unwrap_or_else(|why| {
         println!("! {:?}", why.kind());

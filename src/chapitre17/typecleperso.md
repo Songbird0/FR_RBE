@@ -6,7 +6,7 @@ N'importe quel type implémentant les traits `Eq` et `Hash` peuvent être une cl
 * Le type `int`, `uint` et toutes les variantes de ces derniers;
 * `String` et `&str` (*note*: Vous pouvez avoir une `HashMap` recevant en entrée des `String` et appeler la méthode `.get()` avec une `&str`).
 
-Notez que `f32` et `f64` n'implémentent pas `Hash`, sûrement parce les erreurs de précision rendrait leur utilisation en tant que clé d'une hashmap prêterait à confusion, poserait des soucis.
+Notez que `f32` et `f64` n'implémentent pas `Hash`, sûrement parce les erreurs de précision rendrait leur utilisation en tant que clé d'une hashmap poserait des soucis.
 
 Toutes les classes représentant une collection implémentent `Eq` et `Hash` si le type qu'elles contiennent implémentent également ces deux traits. Par exemple, `Vec<T>` implémentera `Hash` si `T` l'implémente.
 

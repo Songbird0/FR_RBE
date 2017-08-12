@@ -28,12 +28,12 @@ impl List {
         // `self` doit être analysé car le comportement de cette méthode 
         // dépend du type de variante auquel appartient `self`.
         // `self` est de type `&List` et `*self` est de type `List`, rendant 
-        // possible l'analyse directe de la ressource plutôt que par le biais d'un alias (e.g. une référence).
+        // possible l'analyse directe de la ressource plutôt que par le biais d'un alias (i.e. une référence).
         // Pour faire simple: on déréférence `self` avant de l'analyser.
         // Note: Lorsque vous travaillez sur des références, préférez le déréférencement 
         // avant analyse.
         match *self {
-            // On ne peut pas prendre "l'ownership", possession de la queue (liste) 
+            // On ne peut pas prendre "l'ownership" de la queue (liste) 
             // puisque l'on emprunte seulement `self` (nous ne le possédons pas);
             // Nous créerons simplement une référence de la queue.
             Cons(_, ref tail) => 1 + tail.len(),

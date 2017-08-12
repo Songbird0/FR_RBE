@@ -18,5 +18,8 @@ Dans la prochaine section, nous allons voir une méthode pour la gestion explici
 
 ## Voir aussi
 
-[`Option::ok_or`](https://doc.rust-lang.org/std/option/enum.Option.html#method.ok_or), 
-[`Result::map_err`](https://doc.rust-lang.org/std/result/enum.Result.html#method.map_err).
+[`Option::ok_or`][ok_or], 
+[`Result::map_err`][map_err].
+
+[ok_or]: https://doc.rust-lang.org/std/option/enum.Option.html#method.ok_or
+[map_err]: https://doc.rust-lang.org/std/result/enum.Result.html#method.map_err

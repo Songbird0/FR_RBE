@@ -8,9 +8,9 @@ Alors que Rust se charge de choisir, pour les closures, la manière de capturer 
 
 En se fiant au contexte, le compilateur va capturer les variables en privilégiant le « régime » le moins restrictif possible.
 
-Par exemple, prenez un paramètre typé avec le trait `FnOnce`. Cela signifie que la closure *peut* capturer ses variables par référence `&T`, référence mutable `&mut T`, ou valeur `T` mais le compilateur reste encore le seul juge quant à la manière à adopter, en fonction du contexte.
+Par exemple, prenez un paramètre typé avec le trait `FnOnce`. Cela signifie que la closure *peut* capturer ses variables par référence `&T`, référence mutable `&mut T`, ou valeur `T` mais le compilateur reste encore le seul juge quant au régime à adopter, en fonction du contexte.
 
-C'est pourquoi si un « déplacement » (`move`) est possible alors n'importe quel type d'emprunts devrait être possible, notez que l'inverse n'est pas vrai. Si le paramètre est typé `Fn` alors les captures par référence mutable `&mut T` ou par valeur `T` ne sont pas permises.
+C'est pourquoi si un transfert (`move`) est possible alors n'importe quel type d'emprunts devrait être possible, notez que l'inverse n'est pas vrai. Si le paramètre est typé `Fn` alors les captures par référence mutable `&mut T` ou par valeur `T` ne sont pas permises.
 
 Dans l'exemple suivant, essayez de modifier le type de capture (i.e. `Fn`, `FnMut` et `FnOnce`) pour voir ce qu'il se passe :
 
@@ -18,4 +18,9 @@ Dans l'exemple suivant, essayez de modifier le type de capture (i.e. `Fn`, `FnMu
 
 ## Voir aussi
 
-La fonction [std::mem::drop](http://doc.rust-lang.org/std/mem/fn.drop.html) et les traits [Fn](http://doc.rust-lang.org/std/ops/trait.Fn.html), [FnMut](http://doc.rust-lang.org/std/ops/trait.FnMut.html) et [FnOnce](http://doc.rust-lang.org/std/ops/trait.FnOnce.html).
+La fonction [std::mem::drop][drop] et les traits [Fn][Fn], [FnMut][FnMut] et [FnOnce][FnOnce].
+
+[drop]: http://doc.rust-lang.org/std/mem/fn.drop.html
+[Fn]: http://doc.rust-lang.org/std/ops/trait.Fn.html
+[FnMut]: http://doc.rust-lang.org/std/ops/trait.FnMut.html
+[FnOnce]: http://doc.rust-lang.org/std/ops/trait.FnOnce.html

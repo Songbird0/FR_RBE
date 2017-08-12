@@ -7,4 +7,6 @@ Vous pouvez créer une `HashMap` avec une capacité donnée en utilisant `HashMa
 
 {{#playpen source/hashmapsource0.rs}}
 
-Pour plus d"informations à propos du fonctionnement du hashages et des hash maps (parfois appelées hash tables), constulez [la page wikipédia dédiée aux Hash Tables](https://en.wikipedia.org/wiki/Hash_table).
+Pour plus d"informations à propos du fonctionnement du hashage et des hash maps (parfois appelées hash tables), consultez [la page wikipédia dédiée aux Hash Tables][hashtables].
+
+[hashtables]: https://en.wikipedia.org/wiki/Hash_table

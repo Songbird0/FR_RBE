@@ -97,7 +97,7 @@ fn main() {
 
     // Erreur! `rectangle` est immuable alors que cette méthode 
     // nécessite une référence mutable de l'objet.
-    //rectangle.translate(1.0, 0.0);
+    // rectangle.translate(1.0, 0.0);
     // TODO ^ Essayez de décommenter cette ligne.
 
     // C'est bon! Les objets mutables peuvent appeler les méthodes
@@ -108,8 +108,8 @@ fn main() {
 
     pair.destroy();
 
-    // Erreur! L'appel de la méthode `destroy` a consummé
+    // Erreur! L'appel de la méthode `destroy` a consommé
     // l'instance `pair`.
-    //pair.destroy();
+    // pair.destroy();
     // TODO ^ Essayez de décommenter cette ligne.
 }

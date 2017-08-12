@@ -1,4 +1,4 @@
-// Les variables globales sont déclarées en dehors de tous scopes.
+// Les variables globales sont déclarées en dehors de tous contextes.
 static LANGUAGE: &'static str = "Rust";
 const  THRESHOLD: i32 = 10;
 

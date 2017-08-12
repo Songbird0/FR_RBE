@@ -6,4 +6,6 @@ Les méthodes sont annotées de la même manière que les fonctions :
 
 ## Voir aussi
 
-[Les méthodes](../chapitre8/methodes.html).
+[Les méthodes][methodes].
+
+[methodes]: ../chapitre8/methodes.html

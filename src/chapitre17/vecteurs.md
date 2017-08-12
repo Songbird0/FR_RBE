@@ -4,4 +4,6 @@ Les vecteurs sont des tableaux redimensionnables. Tout comme les slices, leur ta
 
 {{#playpen source/vecteurssource0.rs}}
 
-Les méthodes rattachées à la structure `Vec` peuvent être trouvées au sein du module [`std::vec`](https://doc.rust-lang.org/std/vec/ "Documentation officielle du module vec").
+Les méthodes rattachées à la structure `Vec` peuvent être trouvées au sein du module [`std::vec`][vec].
+
+[vec]: https://doc.rust-lang.org/std/vec/

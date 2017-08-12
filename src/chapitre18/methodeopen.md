@@ -2,7 +2,7 @@
 
 La méthode statique `open()` peut être utilisé pour ouvrir un fichier en lecture seule.
 
-Un objet `File` est responsable d'une ressource, le descripteur de fichier et prend soin de fermer le fichier lorsqu'il est libéré.
+Un objet `File` est responsable d'une ressource, du descripteur de fichier et prend soin de fermer le fichier lorsqu'il est libéré.
 
 
 ```rust,ignore
@@ -13,7 +13,7 @@ use std::io::prelude::*;
 use std::path::Path;
 
 fn main() {
-    // Créé un chemin vers le fichier désiré.
+    // Crée un chemin vers le fichier désiré.
     let path = Path::new("hello.txt");
     let display = path.display();
 

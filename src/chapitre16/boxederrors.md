@@ -8,13 +8,13 @@ La bibliothèque standard convertit n'importe quel type qui implémente le trait
 fn foo(...) -> Result<T, Box<Error>> { ... }
 ```
 
-Un utilisateur peut utiliser une variété de bibliothèques externes, chacune fournissant leurs propres types d'erreur. Pour définir un type de `Result<T, E>` valide, l'utilisateur a plusieurs options:
+Un utilisateur peut utiliser nombre de bibliothèques externes, chacune fournissant leurs propres types d'erreur. Pour définir un type de `Result<T, E>` valide, l'utilisateur a plusieurs options:
 
 * Définir un nouveau wrapper englobant les types d'erreur de la bibliothèque;
 * Convertir les types d'erreur en `String` ou vers un autre type intermédiaire;
 * `Box` les types dans `Box<Error>`.
 
-Le "boxing" du type d'erreur est un choix plutôt habituel. Le problème est que le type de l'erreur sous-jacente est connu à l'exécution et n'est pas [déterminé statiquement](https://doc.rust-lang.org/book/trait-objects.html#dynamic-dispatch). Comme mentionné plus haut, tout ce qu'il y a à faire c'est d'implémenter le trait `Error`:
+Le "boxing" du type d'erreur est un choix plutôt habituel. Le problème est que le type de l'erreur sous-jacente est connu à l'exécution et n'est pas [déterminé statiquement][static_dispatch]. Comme mentionné plus haut, tout ce qu'il y a à faire c'est d'implémenter le trait `Error`:
 
 ```rust,ignore
 trait Error: Debug + Display {
@@ -29,5 +29,8 @@ Avec cette implémentation, jetons un oeil à notre exemple récemment présent�
 
 ## Voir aussi
 
-[Distribution dynamique](https://doc.rust-lang.org/book/first-edition/trait-objects.html#dynamic-dispatch) et 
-[le trait `Error`](https://doc.rust-lang.org/std/error/trait.Error.html).
+[Distribution dynamique][static_dispatch] et 
+[le trait `Error`][error_trait].
+
+[static_dispatch]: https://doc.rust-lang.org/book/trait-objects.html#dynamic-dispatch
+[error_trait]: https://doc.rust-lang.org/std/error/trait.Error.html

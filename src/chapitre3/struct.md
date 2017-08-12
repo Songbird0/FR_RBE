@@ -4,7 +4,7 @@ Il y a trois types de structures pouvant être créé en utilisant le mot-clé `
 
 
 1. Les « tuple structs », aussi appelées simplement tuples;
-2. Les [structures classiques](https://en.wikipedia.org/wiki/Struct_(C_programming_language)#Declaration) issues du langage C;
+2. Les [structures classiques][struct] issues du langage C;
 3. Les structures unitaires. Ne possèdant aucun champ, elles sont utiles pour la généricité.
 
 {{#playpen source/structsource0.rs}}
@@ -16,4 +16,8 @@ Il y a trois types de structures pouvant être créé en utilisant le mot-clé `
 
 ## Voir aussi
 
-[Les attributs](../chapitre11/attributes.html) et [la déstructuration](../chapitre7/destruct.html).
+[Les attributs][attributes] et [la déstructuration][destruct].
+
+[struct]: https://en.wikipedia.org/wiki/Struct_(C_programming_language)#Declaration
+[attributes]: ../chapitre11/attributes.html
+[destruct]: ../chapitre7/destruct.html

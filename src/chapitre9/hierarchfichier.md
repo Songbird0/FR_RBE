@@ -1,6 +1,6 @@
 # La hiérarchie des fichiers
 
-Il est possible de transformer nos modules en un ensemble de fichiers et de répertoires. Recréons l'exemple utilisé pour illustrer le concept de [la visibilité](../chapitre9/visibilite.html) en un ensemble de fichiers :
+Il est possible de transformer nos modules en un ensemble de fichiers et de répertoires. Recréons l'exemple utilisé pour illustrer le concept de [la visibilité][visibilite] en un ensemble de fichiers :
 
 ```bash
 $ tree .
@@ -13,7 +13,7 @@ $ tree .
 ```
 
 ```rust,ignore
-// my/mod.rs
+// Dans le fichier my/mod.rs
 // De la même manière `mod inaccessible` et `mod nested` vont essayer de localiser 
 // les fichiers `nested.rs` et `inaccessible.rs` pour récupérer et ajouter leur contenu 
 // dans leur module respectif.
@@ -36,7 +36,7 @@ pub fn indirect_access() {
 ```
 
 ```rust,ignore
-// my/nested.rs
+// Dans le fichier my/nested.rs
 pub fn function() {
     println!("called `my::nested::function()`");
 }
@@ -48,7 +48,7 @@ fn private_function() {
 ```
 
 ```rust,ignore
-// my/inaccessible.rs
+// Dans le fichier my/inaccessible.rs
 #[allow(dead_code)]
 pub fn public_function() {
     println!("called `my::inaccessible::public_function()`");
@@ -63,3 +63,5 @@ called `my::indirect_access()`, that
 > called `my::private_function()`
 called `my::nested::function()`
 ```
+
+[visibilite]: ../chapitre9/visibilite.html

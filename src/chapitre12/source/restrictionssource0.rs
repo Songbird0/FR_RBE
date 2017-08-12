@@ -32,8 +32,8 @@ fn main() {
     print_debug(&rectangle);
     println!("Area: {}", area(&rectangle));
 
-    //print_debug(&_triangle);
-    //println!("Area: {}", area(&_triangle));
+    // print_debug(&_triangle);
+    // println!("Area: {}", area(&_triangle));
     // ^ TODO: Essayez de décommenter ces lignes.
     // | Erreur: N'implémente pas l'un de ces traits: `Debug` ou `HasArea`.
 }

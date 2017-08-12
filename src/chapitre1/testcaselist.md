@@ -1,14 +1,14 @@
 # Exemple d'utilisation : La structure List
 
-Implémenter le `trait` `fmt::Display` pour une structure où les éléments doivent être gérés séquentiellement est assez délicat. Le problème réside dans le fait que chaque appel de la macro `write!` génère une instance de `fmt::Result`. Une bonne gestion de ces appels demande de tester chaque résultat. Rust vous permet de gérer les erreurs de deux manières :
+Implémenter le `trait` `fmt::Display` pour une structure où les éléments doivent être gérés séquentiellement est assez délicat. Le problème réside dans le fait que chaque appel de la macro `write!` génère une instance de `fmt::Result`. Une bonne gestion de ces appels nécessite de tester chaque résultat. Rust vous permet de gérer les erreurs de deux manières :
 
 1. En utilisant la macro `try!`;
 2. En utilisant l'opérateur `?` (qui est l'équivalent de `try!` mais intégré directement au langage).
 
 La macro `try!` vient envelopper la fonction (ou la macro) cible comme ceci :
 
-```text
-// On ‘test' write! Pour voir si une erreur survient. Si il y a une erreur, 
+```rust,ignore
+// On ‘test' write! Pour voir si une erreur survient. S'il y a une erreur, 
 // elle sera renvoyée. Sinon, l'exécution continue. 
 try!(write!(f, "{}", value));
 ```
@@ -16,7 +16,7 @@ try!(write!(f, "{}", value));
 L'opérateur `?`, bien qu'équivalent à la macro `try!`, vient se positionner devant l'appel de la fonction (ou macro).
 
 
-```text
+```rust,ignore
 write!(f, "{}", value)?;
 ```
 
@@ -34,4 +34,11 @@ Essayez de modifier le programme pour que l'index de chaque élément du vector 
 
 ## Voir aussi
 
-[La boucle for](../chapitre7/forintervalles.html), [le pattern `ref`](../chapitre13/refpattern.html), [`Result`](../chapitre17/enumresult.html), [les structures](../chapitre3/struct.html), [`try!`](../chapitre17/trymacro.html), [`vec!`](../chapitre17/vecteurs.html)
+[La boucle for][for], [le pattern `ref`][ref], [`Result`][result], [les structures][struct], [`try!`][try], [`vec!`][vec].
+
+[for]: ../chapitre7/forintervalles.html
+[ref]: ../chapitre13/refpattern.html
+[result]: ../chapitre17/enumresult.html
+[struct]: ../chapitre3/struct.html
+[try]: ../chapitre17/trymacro.html
+[vec]: ../chapitre17/vecteurs.html

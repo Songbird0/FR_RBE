@@ -6,4 +6,8 @@ Puisqu'il est possible d'imposer des conditions aux types génériques grâce au
 
 ## Voir aussi
 
-La documentation du trait [Eq](http://doc.rust-lang.org/std/cmp/trait.Eq.html), la documentation du trait [Ord](http://doc.rust-lang.org/std/cmp/trait.Ord.html) et [les traits](../chapitre14/traits.html).
+La documentation du trait [Eq][eq], la documentation du trait [Ord][ord] et [les traits][traits].
+
+[eq]: http://doc.rust-lang.org/std/cmp/trait.Eq.html
+[ord]: http://doc.rust-lang.org/std/cmp/trait.Ord.html
+[traits]: ../chapitre14/traits.html

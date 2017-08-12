@@ -6,4 +6,6 @@ Accéder indirectement à une variable rend impossible sa réutilisation sans la
 
 ## Voir aussi
 
-[Les fonctions](../chapitre8/fonctions.html)
+[Les fonctions][fonctions].
+
+[fonctions]: ../chapitre8/fonctions.html
